@@ -189,22 +189,8 @@
     width: 280px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Other Brand */
-.other-brand{
+/* .other-brand{
     padding: 5rem;
     display: flex;
     justify-content: center;
@@ -240,7 +226,7 @@
 
 .other-brand .container .hp img {
     width: 120px;
-}
+} */
 
 
 /* Responsive Design */
@@ -326,7 +312,6 @@
         height: 200px;
     }
 }
-
 
 @media (min-width: 650px) and (max-width: 768px) {
     .landing-page img {
