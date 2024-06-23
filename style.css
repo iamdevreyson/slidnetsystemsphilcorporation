@@ -53,7 +53,7 @@
     transition: transform 0.5s ease-in-out;
 }
 
-.navbar a:hover {
+.nav-item a:hover {
     color: #e1140a;
 }
 
@@ -190,6 +190,66 @@
     width: 280px;
 }
 
+/* Footer */
+footer {
+    background-color: #000000;
+    padding: 35px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h5 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+} 
+
+footer h6 {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+footer .social-icons,
+footer .copyright,
+footer .footer-navigation {
+    padding: 10px 0;
+}
+
+footer .social-icons i {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+footer .social-icons i:hover {
+    color: #e1140a;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+}
+
+footer .footer-navigation a {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+footer .footer-navigation a:hover {
+    color: #e1140a;
+} 
+
+footer .copyright {
+    margin: 14px 0;
+}
 
 /* Responsive Design */
 
@@ -696,4 +756,56 @@
         width: 130px;
     }
     
+}
+
+/* Footer */
+@media (min-width: 320px) and (max-width: 426px) {
+    footer {
+        padding: 40px 0;
+    }
+    
+    footer .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h5 {
+        font-size: 14px;
+    } 
+    
+    footer h6 {
+        font-size: 12px;
+    }
+    
+    footer .social-icons,
+    footer .copyright,
+    footer .footer-navigation {
+        padding: 10px 0;
+    }
+    
+    footer .social-icons i {
+        font-size: 14px;
+        color: #ffffff;
+        margin: 0 10px;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    
+    footer .social-icons a {
+        text-decoration: none;
+    }
+    
+    footer .footer-navigation a {
+        font-size: 12px;
+        color: #ffffff;
+        margin: 0 4px;
+        text-decoration: none;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    footer .copyright {
+        margin: 14px 0;
+    }
+
 }
