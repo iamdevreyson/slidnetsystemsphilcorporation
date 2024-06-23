@@ -50,10 +50,11 @@
 .nav-item a {
     font-size: 15px;
     color: #000000;
+    transition: transform 0.5s ease-in-out;
 }
 
 .navbar a:hover {
-    color: #000000;
+    color: #e1140a;
 }
 
 .dropdown-menu {
@@ -318,4 +319,381 @@
     .landing-page img {
         width: 1100px;
     }
+}
+
+/* Products */
+@media (min-width: 320px) and (max-width: 426px) {
+
+.products .images {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.products .images .hp img {
+    width: 70px;
+}
+
+.products .images .asus img,
+.products .images .lenovo img,
+.products .images .acer img {
+    width: 100px;
+}
+
+.products .images .dell img,
+.products .images .huawei img,
+.products .images .huawei img,
+.products .images .aruba img,
+.products .images .tplink img,
+.products .images .apc img,
+.products .images .eaton img,
+.products .images .epson img,
+.products .images .brother img,
+.products .images .canon img,
+.products .images .fujitsu img,
+.products .images .zebra img,
+.products .images .jabra img,
+.products .images .poly img,
+.products .images .checkpoint img {
+    width: 120px;
+}
+
+.products .images .msi img,
+.products .images .adobe img,
+.products .images .hewlett img,
+.products .images .d-link img,
+.products .images .vertiv img,
+.products .images .delta img {
+    width: 120px;
+} 
+
+.products .images .apple img,
+.products .images .cisco img,
+.products .images .logitech img,
+.products .images .lg img,
+.products .images .trellix img,
+.products .images .ridge img {
+    width: 120px;
+}
+
+.products .images .microsoft img,
+.products .images .chargeups img,
+.products .images .datalogic img,
+.products .images .ncomputing img ,
+.products .images .autodesk img,
+.products .images .bricscad img,
+.products .images .zwcad img,
+.products .images .watchguard img {
+    width: 130px;
+}
+
+.products .images .lumion img {
+    width: 120px;
+}
+
+.products .images .samsung img,
+.products .images .kingston img,
+.products .images .seagate img,
+.products .images .westerndigital img,
+.products .images .hikvision img,
+.products .images .vmware img,
+.products .images .veamm img,
+.products .images .arcserve img,
+.products .images .nutanix img,
+.products .images .sonicwall img,
+.products .images .fortinet img,
+.products .images .sophos img,
+.products .images .filewave img,
+.products .images .skyhigh img,
+.products .images .paloalto img {
+    width: 120px;
+}
+
+.products .images .sangfor img {
+    width: 120px;
+}
+
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+
+    .products .images {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+    }
+    
+    .products .images .hp img {
+        width: 70px;
+    }
+    
+    .products .images .asus img,
+    .products .images .lenovo img,
+    .products .images .acer img {
+        width: 100px;
+    }
+    
+    .products .images .dell img,
+    .products .images .huawei img,
+    .products .images .huawei img,
+    .products .images .aruba img,
+    .products .images .tplink img,
+    .products .images .apc img,
+    .products .images .eaton img,
+    .products .images .epson img,
+    .products .images .brother img,
+    .products .images .canon img,
+    .products .images .fujitsu img,
+    .products .images .zebra img,
+    .products .images .jabra img,
+    .products .images .poly img,
+    .products .images .checkpoint img {
+        width: 120px;
+    }
+    
+    .products .images .msi img,
+    .products .images .adobe img,
+    .products .images .hewlett img,
+    .products .images .d-link img,
+    .products .images .vertiv img,
+    .products .images .delta img {
+        width: 120px;
+    } 
+    
+    .products .images .apple img,
+    .products .images .cisco img,
+    .products .images .logitech img,
+    .products .images .lg img,
+    .products .images .trellix img,
+    .products .images .ridge img {
+        width: 120px;
+    }
+    
+    .products .images .microsoft img,
+    .products .images .chargeups img,
+    .products .images .datalogic img,
+    .products .images .ncomputing img ,
+    .products .images .autodesk img,
+    .products .images .bricscad img,
+    .products .images .zwcad img,
+    .products .images .watchguard img {
+        width: 130px;
+    }
+    
+    .products .images .lumion img {
+        width: 120px;
+    }
+    
+    .products .images .samsung img,
+    .products .images .kingston img,
+    .products .images .seagate img,
+    .products .images .westerndigital img,
+    .products .images .hikvision img,
+    .products .images .vmware img,
+    .products .images .veamm img,
+    .products .images .arcserve img,
+    .products .images .nutanix img,
+    .products .images .sonicwall img,
+    .products .images .fortinet img,
+    .products .images .sophos img,
+    .products .images .filewave img,
+    .products .images .skyhigh img,
+    .products .images .paloalto img {
+        width: 120px;
+    }
+    
+    .products .images .sangfor img {
+        width: 120px;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+
+    .products .images {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 20px;
+    }
+    
+    .products .images .hp img {
+        width: 70px;
+    }
+    
+    .products .images .asus img,
+    .products .images .lenovo img,
+    .products .images .acer img {
+        width: 100px;
+    }
+    
+    .products .images .dell img,
+    .products .images .huawei img,
+    .products .images .huawei img,
+    .products .images .aruba img,
+    .products .images .tplink img,
+    .products .images .apc img,
+    .products .images .eaton img,
+    .products .images .epson img,
+    .products .images .brother img,
+    .products .images .canon img,
+    .products .images .fujitsu img,
+    .products .images .zebra img,
+    .products .images .jabra img,
+    .products .images .poly img,
+    .products .images .checkpoint img {
+        width: 120px;
+    }
+    
+    .products .images .msi img,
+    .products .images .adobe img,
+    .products .images .hewlett img,
+    .products .images .d-link img,
+    .products .images .vertiv img,
+    .products .images .delta img {
+        width: 120px;
+    } 
+    
+    .products .images .apple img,
+    .products .images .cisco img,
+    .products .images .logitech img,
+    .products .images .lg img,
+    .products .images .trellix img,
+    .products .images .ridge img {
+        width: 120px;
+    }
+    
+    .products .images .microsoft img,
+    .products .images .chargeups img,
+    .products .images .datalogic img,
+    .products .images .ncomputing img ,
+    .products .images .autodesk img,
+    .products .images .bricscad img,
+    .products .images .zwcad img,
+    .products .images .watchguard img {
+        width: 130px;
+    }
+    
+    .products .images .lumion img {
+        width: 120px;
+    }
+    
+    .products .images .samsung img,
+    .products .images .kingston img,
+    .products .images .seagate img,
+    .products .images .westerndigital img,
+    .products .images .hikvision img,
+    .products .images .vmware img,
+    .products .images .veamm img,
+    .products .images .arcserve img,
+    .products .images .nutanix img,
+    .products .images .sonicwall img,
+    .products .images .fortinet img,
+    .products .images .sophos img,
+    .products .images .filewave img,
+    .products .images .skyhigh img,
+    .products .images .paloalto img {
+        width: 120px;
+    }
+    
+    .products .images .sangfor img {
+        width: 120px;
+    }
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1301px) {
+
+    .products .images {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 20px;
+    }
+    
+    .products .images .hp img {
+        width: 70px;
+    }
+    
+    .products .images .asus img,
+    .products .images .lenovo img,
+    .products .images .acer img {
+        width: 120px;
+    }
+    
+    .products .images .dell img,
+    .products .images .huawei img,
+    .products .images .huawei img,
+    .products .images .aruba img,
+    .products .images .tplink img,
+    .products .images .apc img,
+    .products .images .eaton img,
+    .products .images .epson img,
+    .products .images .brother img,
+    .products .images .canon img,
+    .products .images .fujitsu img,
+    .products .images .zebra img,
+    .products .images .jabra img,
+    .products .images .poly img,
+    .products .images .checkpoint img {
+        width: 130px;
+    }
+    
+    .products .images .msi img,
+    .products .images .adobe img,
+    .products .images .hewlett img,
+    .products .images .d-link img,
+    .products .images .vertiv img,
+    .products .images .delta img {
+        width: 130px;
+    } 
+    
+    .products .images .apple img,
+    .products .images .cisco img,
+    .products .images .logitech img,
+    .products .images .lg img,
+    .products .images .trellix img,
+    .products .images .ridge img {
+        width: 130px;
+    }
+    
+    .products .images .microsoft img,
+    .products .images .chargeups img,
+    .products .images .datalogic img,
+    .products .images .ncomputing img ,
+    .products .images .autodesk img,
+    .products .images .bricscad img,
+    .products .images .zwcad img,
+    .products .images .watchguard img {
+        width: 130px;
+    }
+    
+    .products .images .lumion img {
+        width: 130px;
+    }
+    
+    .products .images .samsung img,
+    .products .images .kingston img,
+    .products .images .seagate img,
+    .products .images .westerndigital img,
+    .products .images .hikvision img,
+    .products .images .vmware img,
+    .products .images .veamm img,
+    .products .images .arcserve img,
+    .products .images .nutanix img,
+    .products .images .sonicwall img,
+    .products .images .fortinet img,
+    .products .images .sophos img,
+    .products .images .filewave img,
+    .products .images .skyhigh img,
+    .products .images .paloalto img {
+        width: 130px;
+    }
+    
+    .products .images .sangfor img {
+        width: 130px;
+    }
+    
 }
