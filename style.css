@@ -189,45 +189,6 @@
     width: 280px;
 }
 
-/* Other Brand */
-/* .other-brand{
-    padding: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.other-brand .brands{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.other-brand img {
-    cursor: pointer;
-    transition: transform 0.5s ease-in-out;
-    filter: grayscale(100%);
-}
-
-.other-brand img:hover {
-    transform: scale(1.2);
-    filter: grayscale(0%);
-}
-
-.other-brand .container .omen img {
-    width: 190px;
-}
-
-.other-brand .container .slid img {
-    width: 220px;
-}
-
-.other-brand .container .hp img {
-    width: 120px;
-} */
-
 
 /* Responsive Design */
 
